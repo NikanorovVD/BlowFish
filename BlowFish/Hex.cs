@@ -8,7 +8,6 @@ namespace BlowFish
 {
     partial class BlowFish
     {
-        //converts a byte array to a hex string
         private string ByteToHex(byte[] bytes)
         {
             StringBuilder s = new StringBuilder();
@@ -17,7 +16,6 @@ namespace BlowFish
             return s.ToString();
         }
 
-        //converts a hex string to a byte array
         private byte[] HexToByte(string hex)
         {
             byte[] r = new byte[hex.Length / 2];
@@ -30,7 +28,6 @@ namespace BlowFish
             return r;
         }
 
-        //converts a single hex character to it's decimal value
         private byte GetHex(char x)
         {
             if (x <= '9' && x >= '0')

@@ -8,8 +8,6 @@ namespace BlowFish
 {
     partial class BlowFish
     {
-        //SBLOCKS ARE THE HEX DIGITS OF PI. 
-        //The amount of hex digits can be increased if you want to experiment with more rounds and longer key lengths
         private uint[] SetupP()
         {
             return [
